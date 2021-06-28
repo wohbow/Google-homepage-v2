@@ -2,19 +2,24 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles/style.css">
     </head>
     <body>
         <header>
-            <nav>
-                <ul class="secondary-nav">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Store</a></li>
+            <nav class="container nav">
+                <ul class="container secondary-nav">
+                    <li><a class="hover--underline" href="#">About</a></li>
+                    <li><a class="hover--underline" href="#">Store</a></li>
                 </ul>
-                <ul class="primary-nav">
-                    <li><a href="#">Gmail</a></li>
-                    <li><a href="#">Images</a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#">Sign in</a></li>
+                <ul class="container primary-nav">
+                    <div class="container primary-nav__container">
+                        <li><a class="hover--underline" href="#">Gmail</a></li>
+                        <li><a class="hover--underline" href="#">Images</a></li>
+                    </div>
+                    <div class="container primary-nav__container">
+                        <li class="nav__apps"><a href="#" class="container"><img src="images/apps_24dp.svg"></a></li>
+                        <li><a class="nav__sign-in" href="#">Sign in</a></li>
+                    </div>
                 </ul>
             </nav>
         </header>
