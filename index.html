@@ -26,26 +26,29 @@
         <main class="main">
             <div class="container hero">
                 <img class="hero__image" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
-                <form>
-                    <input type="text" name="search-query">
-                    <div>
-                        <input type="submit" value="Google Search">
-                        <input type="submit" value="I'm Feeling Lucky">
+                <form class="container search">
+                    <div class="container search-field">
+                        <img class="search-icon" src="images/search_24dp.svg">
+                        <input class="search-bar" type="text" name="search-query">
+                    </div>
+                    <div class="container search-submit">
+                        <input class="search-submit__button" type="submit" value="Google Search">
+                        <input class="search-submit__button" type="submit" value="I'm Feeling Lucky">
                     </div>
                 </form>
             </div>
         </main>
         <footer class="container footer">
             <ul class="container footer-group">
-                <li><a href="#">Advertising</a></li>
-                <li><a href="#">Business</a></li>
-                <li><a href="#">How Search works</a></li>
+                <li><a class="hover--underline" href="#">Advertising</a></li>
+                <li><a class="hover--underline" href="#">Business</a></li>
+                <li><a class="hover--underline" href="#">How Search works</a></li>
             </ul>
-            <div class="footer-group"><a href="#">Carbon neutral since 2007</a></div>
+            <div class="footer-group hover--underline"><a href="#">Carbon neutral since 2007</a></div>
             <ul class="container footer-group">
-                <li><a href="#">Privacy</a></li>
-                <li><a href="#">Terms</a></li>
-                <li><a href="#">Settings</a></li>
+                <li><a class="hover--underline" href="#">Privacy</a></li>
+                <li><a class="hover--underline" href="#">Terms</a></li>
+                <li><a class="hover--underline" href="#">Settings</a></li>
             </ul>
         </footer>
     </body>
